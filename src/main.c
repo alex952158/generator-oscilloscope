@@ -160,6 +160,11 @@ static rp_app_params_t rp_main_params[PARAMS_NUM+1] = {
     { /* scale_ch2 - Jumper & probe attenuation dependent Y scaling factor for Channel 2 */
         "scale_ch2", 0, 0, 1, -1000, 1000 },
 
+    /* New parameter addition */
+    {
+      "setpt_ch1", 0, 0, 0, 0, 1000 
+    },
+
     /********************************************************/
     /* Arbitrary Waveform Generator parameters from here on */
     /********************************************************/
